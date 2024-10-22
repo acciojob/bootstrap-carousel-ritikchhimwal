@@ -5,6 +5,50 @@
 </head>
 <body>
     <!-- Write your code here -->
+	<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="4"></li>
+    </ol>
+
+    <!-- Carousel Slides -->
+    <div class="carousel-inner">
+      <!-- First slide -->
+      <div class="carousel-item first-slide">
+        <img src="https://via.placeholder.com/800x400?text=First+Slide" class="d-block w-100" alt="First slide">
+      </div>
+      <!-- Second slide -->
+      <div class="carousel-item second-slide">
+        <img src="https://via.placeholder.com/800x400?text=Second+Slide" class="d-block w-100" alt="Second slide">
+      </div>
+      <!-- Third slide (Active on load) -->
+      <div class="carousel-item active third-slide">
+        <img src="https://via.placeholder.com/800x400?text=Third+Slide" class="d-block w-100" alt="Third slide">
+      </div>
+      <!-- Fourth slide -->
+      <div class="carousel-item fourth-slide">
+        <img src="https://via.placeholder.com/800x400?text=Fourth+Slide" class="d-block w-100" alt="Fourth slide">
+      </div>
+      <!-- Fifth slide -->
+      <div class="carousel-item fifth-slide">
+        <img src="https://via.placeholder.com/800x400?text=Fifth+Slide" class="d-block w-100" alt="Fifth slide">
+      </div>
+    </div>
+
+    <!-- Left and Right Controls -->
+    <a class="carousel-control-prev left" href="#myCarousel" role="button" data-bs-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next right" href="#myCarousel" role="button" data-bs-slide="next">
+      <span class="glyphicon glyphicon-chevron-right carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
